@@ -9,7 +9,7 @@ async function bootstrap() {
     .setTitle('ARTISAN PORTAL')
     .setDescription('The ARTISAN API description')
     .setVersion('1.0')
-    .addTag('BY ......@RANSOMWARE')
+    .addTag('BY EVAN CHIMWAZA')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api', app, document);
